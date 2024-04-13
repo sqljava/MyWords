@@ -1,6 +1,5 @@
-package uz.ictschool.mywords.ui.theme.appdatabse.entity
+package uz.ictschool.mywords.localDatabse.entity
 
-import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -9,5 +8,5 @@ data class Word(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
     val name: String,
-
+    val translation: String
     )
